@@ -6,10 +6,10 @@ An open source <sub><sup>tiny</sub></sup> mouse 🐭.
 
 ### design principles
 - symmetrical computer mouse (2 variants, standard & extended)
-- AirPod size (for claw grip grip & finger tip only)
+- AirPod size (for claw grip grip & finger tip grip)
 - screwless 3D puzzle design, utilizing elastic of plastic
-- FDM printing printable
-- ligthweight. (~25g standard, ~27g extended)
+- FDM printing printable, optimised for resin printing
+- ligthweight. (~25g standard, ~27g extended, with 1.1mm shell wall)
 - all gripping surface covering with unique curvy descent, generate unique touch memory of gripping, amplify awaring of grip slip to reduce grip adjustment duration
 - eggy rear with narrowing middle bottom, increase side friction, enhance lift control for pull and push movement
 - 3 customisable buttons
@@ -29,6 +29,9 @@ An open source <sub><sup>tiny</sub></sup> mouse 🐭.
 <img src="./imgs/p4.jpeg" width="44%">
 <img src="./imgs/p3.jpeg" width="44%">
 <img src="./imgs/p5.jpeg" width="44%">
+<img src="./imgs/p6.jpeg" width="44%">
+<img src="./imgs/p7.jpeg" width="44%">
+<img src="./imgs/p8.jpeg" width="44%">
 </p>
 
 ### bom
@@ -49,7 +52,7 @@ An open source <sub><sup>tiny</sub></sup> mouse 🐭.
 - NOT for beginner. Requiring IQ 120+ and experience of building at least one pointing peripheral on [ZMK](https://github.com/zmkfirmware/zmk).
 - should inspect CAD file (Fusion360 archive file, or STEP file) before puzzling
 - lens-to-surface distance is ~2.4mm (+/-0.2mm) by design. Assuming all mouse feet is ~0.65mm tall.
-- thickless of shell could be adjusable in Fusion360 timeline. default thickless as 1.2mm, down to 1.0mm is the minimum tested and works for FDM printing.
+- thickless of shell could be adjusable in Fusion360 timeline. default thickless as 1.1mm, thick it up to 1.2mm would be easier to print and gain ~0.5g, down to 1.0mm is the minimum tested and works for FDM printing.
 - TWO sensor position option available.
   | center | rear |
   |-|-|
